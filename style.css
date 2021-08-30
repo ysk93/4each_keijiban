@@ -1,0 +1,106 @@
+header{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  /*一番右の部分に余白ができてしまう*/
+}
+header ul li{
+  float: left;
+  top: 0px;
+  left: 15px;
+  margin: 7px 15px;
+  /*⇧line-heightが使えない*/
+  list-style: none;
+}
+main{
+  clear:both;
+}
+.left{
+  float: left;
+  width: 68%;
+  height: 1300px;
+  padding-left: 20px;
+  background-color: white;
+}
+.left h1{
+  width: 95%;
+  border-left: 4px solid red;
+}
+form{
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 900px;
+  height: 400px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+.submit{
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #fff;
+  background: darkgray;
+}
+
+.article1{ 
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 900px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.article2{
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 900px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+
+.right{
+  float: left;
+  width: 30%;
+  height: 1300px;
+  background-color: white;
+}
+.menu ul li{
+  left:40px;
+  list-style: none;
+}
+.menu{
+  left: 30px;
+}
+.article{
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.article p{
+  border-bottom: 1px dotted black;
+  width: 90%;
+}
+.link{
+  margin-bottom: 40px;
+}
+.link p{
+  border-bottom: 1px dotted black;
+  width: 90%;
+}
+.category p{
+  border-bottom: 1px dotted black;
+  width: 90%;
+}
+
+footer{
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  line-height: 1px;
+}
